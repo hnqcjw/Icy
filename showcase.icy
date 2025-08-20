@@ -1,0 +1,13 @@
+func greet() {
+  printLn("Hello World!"); // AAA Did You Know you can do comments?? (Single-line only)
+}
+
+greet();
+ask("How are you? ");
+printF("Alright, ");
+printF("I'm good!");
+
+printLn("I'm gonna show you the contents of ~");
+sys("cd ~ && ls")
+printLn("Goodbye, we're gonna loop to the start now, press CTRL-C to quit");
+goToLn(1);
