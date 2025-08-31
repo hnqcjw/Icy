@@ -1,0 +1,6 @@
+when_i_call Hello()
+    print "[aa]";
+finish
+
+Hello();
+goToLine 1;
